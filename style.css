@@ -209,10 +209,10 @@ h1{
 
 /* Bio page background override */
 .page-bio .bg-photo{
-  background-image: url("Background3.jpg");
+  background-image: url("Background4.jpg");
 }
 
 /* ===== Bio page background override (FINAL) ===== */
 body.page-bio .bg-photo{
-  background-image: url("Background3.jpg") !important;
+  background-image: url("Background4.jpg") !important;
 }
