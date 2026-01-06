@@ -4,7 +4,7 @@
   --text:#e9ecf1;
   --muted:#a9b0bf;
   --line:rgba(255,255,255,.10);
-  --accent:#7aa2ff;
+  --accent:#4fa3a5;
 }
 
 @media (prefers-color-scheme: light){
@@ -14,7 +14,7 @@
     --text:#0e1220;
     --muted:#5a6275;
     --line:rgba(10,15,30,.10);
-    --accent:#2b5cff;
+    --accent:#2e7f84;
   }
 }
 
