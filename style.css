@@ -206,3 +206,8 @@ h1{
 .page-publications .bg-photo{
   background-image: url("Background2.jpg");
 }
+
+/* Bio page background override */
+.page-bio .bg-photo{
+  background-image: url("Background3.jpg");
+}
