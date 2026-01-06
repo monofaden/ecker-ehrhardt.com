@@ -141,3 +141,63 @@ h1{
   .grid{ grid-template-columns: 1fr; }
   h1{ font-size: 34px; }
 }
+
+
+/* ===== Background photo layer ===== */
+.bg-photo{
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background-image: url("Background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: scale(1.03); /* avoids edge gaps on some browsers */
+}
+
+/* Readability overlay (keeps text legible on busy photos) */
+.bg-photo::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+    radial-gradient(1200px 700px at 20% 10%, rgba(0,0,0,.35), transparent 60%),
+    linear-gradient(to bottom, rgba(0,0,0,.55), rgba(0,0,0,.65));
+}
+
+/* In light mode, reduce the dark overlay a bit */
+@media (prefers-color-scheme: light){
+  .bg-photo::after{
+    background:
+      radial-gradient(1200px 700px at 20% 10%, rgba(255,255,255,.55), transparent 60%),
+      linear-gradient(to bottom, rgba(255,255,255,.65), rgba(255,255,255,.75));
+  }
+}
+
+/* ===== About box photo layout ===== */
+.about{
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 14px;
+  align-items: start;
+}
+
+.about-photo{
+  width: 120px;
+  height: 120px;
+  border-radius: 16px;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  background: var(--card);
+}
+
+/* Stack on mobile */
+@media (max-width: 560px){
+  .about{
+    grid-template-columns: 1fr;
+  }
+  .about-photo{
+    width: 140px;
+    height: 140px;
+  }
+}
