@@ -201,3 +201,8 @@ h1{
     height: 140px;
   }
 }
+
+/* Publications page background override */
+.page-publications .bg-photo{
+  background-image: url("Background2.jpg");
+}
