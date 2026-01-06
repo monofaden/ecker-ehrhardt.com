@@ -211,3 +211,8 @@ h1{
 .page-bio .bg-photo{
   background-image: url("Background3.jpg");
 }
+
+/* ===== Bio page background override (FINAL) ===== */
+body.page-bio .bg-photo{
+  background-image: url("Background3.jpg") !important;
+}
