@@ -7,70 +7,114 @@
   <meta name="description" content="Brief academic biography of Matthias Ecker-Ehrhardt">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-  <header>
-    <h1>Bio</h1>
-  </header>
+<body class="page-bio">
+  <!-- Background photo layer (required for your CSS .bg-photo rules) -->
+  <div class="bg-photo" aria-hidden="true"></div>
 
-  <main>
-    <p>
-      I am a Senior Researcher at Goethe University Frankfurt, where my research
-      focuses on international organizations’ digital communication, its
-      adaptation to far-right contestation, and patterns of user engagement with
-      IO messaging—including engagement by far-right sceptics of international
-      organizations. This work is part of the
-      <a href="https://farrio.eu/" target="_blank" rel="noopener noreferrer">
-        FARRIO project
-      </a>.
-    </p>
+  <div class="wrap">
 
-    <p>
-      My research has been published in leading international journals, including
-      <em>International Organization</em>, <em>International Studies Quarterly</em>,
-      <em>Review of International Organizations</em>,
-      <em>Global Studies Quarterly</em>, and
-      <em>European Journal of International Relations</em>.
-    </p>
+    <!-- Hero header consistent with other pages -->
+    <section class="hero">
+      <div>
+        <h1>Bio</h1>
+        <p class="sub">Brief academic profile</p>
 
-    <p>
-      I studied political science at Freie Universität Berlin, where I received
-      my doctorate in 2003. My dissertation,
-      <em>Argument, Coalitions, Cognitions: The German Debate on the Eastward Expansion of the EU</em>,
-      was graded <em>summa cum laude</em>.
-    </p>
+        <nav class="links" aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a href="bio.html">Bio</a>
+          <a href="publications.html">Publications</a>
+          <a href="projects.html">Current Projects</a>
+        </nav>
+      </div>
 
-    <p>
-      From 2005 to 2013, I worked as a Senior Researcher in the
-      <em>Transnational Conflicts and International Institutions</em> department
-      at the Berlin Social Science Center (WZB). Between 2014 and 2017, I led the
-      DFG-funded project <em>The Communicated IO: Public Relations, Inclusion of
-      Civil Society Actors and the Global Politicisation of International
-      Organisations</em> at the Centre for Transnational Relations, Foreign and
-      Security Policy at Freie Universität Berlin.
-    </p>
+      <!-- Optional: small badge box, consistent with your theme -->
+      <aside class="badge">
+        <p class="kicker">Current focus</p>
+        <p class="focus">
+          International organizations, digital communication, far-right contestation, and engagement dynamics.
+        </p>
+      </aside>
+    </section>
 
-    <p>
-      In 2020–21, I was a Senior Fellow at the Käte Hamburger Kolleg, Centre for
-      Global Cooperation Research at the University of Duisburg–Essen, where I
-      subsequently led the BMBF-funded project
-      <em>(De)Legitimation Surveys: Political Ideology, Peer Opinion, Nonstate
-      Actor Inclusion, and the Social Legitimacy of Global Governance
-      Institutions</em> from 2021 to 2024.
-    </p>
+    <!-- Main content in card layout -->
+    <section class="grid">
+      <article class="card">
+        <div class="about">
+          <!-- Update the filename to your actual portrait image -->
+          <img class="about-photo" src="Portrait.jpg" alt="Portrait of Matthias Ecker-Ehrhardt">
 
-    <p>
-      I have held temporary professorships in international relations at Freie
-      Universität Berlin, the University of Leipzig, the University of Bamberg,
-      and most recently at Goethe University Frankfurt.
-    </p>
-  </main>
+          <div>
+            <p>
+              I am a Senior Researcher at Goethe University Frankfurt, where my research focuses on international
+              organizations’ digital communication, its adaptation to far-right contestation, and patterns of user
+              engagement with IO messaging—including engagement by far-right sceptics of international organizations.
+              This work is part of the
+              <a href="https://farrio.eu/" target="_blank" rel="noopener noreferrer">FARRIO project</a>.
+            </p>
 
-  <footer>
-    <p>
-      <a href="index.html">Back to home</a>
-    </p>
-  </footer>
+            <p>
+              My research has been published in leading international journals, including
+              <em>International Organization</em>, <em>International Studies Quarterly</em>,
+              <em>Review of International Organizations</em>, <em>Global Studies Quarterly</em>, and
+              <em>European Journal of International Relations</em>.
+            </p>
+          </div>
+        </div>
 
+        <p>
+          I studied political science at Freie Universität Berlin, where I received my doctorate in 2003.
+          My dissertation, <em>Argument, Coalitions, Cognitions: The German Debate on the Eastward Expansion of the EU</em>,
+          was graded <em>summa cum laude</em>.
+        </p>
+
+        <p>
+          From 2005 to 2013, I worked as a Senior Researcher in the <em>Transnational Conflicts and International Institutions</em>
+          department at the Berlin Social Science Center (WZB). Between 2014 and 2017, I led the DFG-funded project
+          <em>The Communicated IO: Public Relations, Inclusion of Civil Society Actors and the Global Politicisation of
+          International Organisations</em> at the Centre for Transnational Relations, Foreign and Security Policy at
+          Freie Universität Berlin.
+        </p>
+
+        <p>
+          In 2020–21, I was a Senior Fellow at the Käte Hamburger Kolleg, Centre for Global Cooperation Research at the
+          University of Duisburg–Essen, where I subsequently led the BMBF-funded project
+          <em>(De)Legitimation Surveys: Political Ideology, Peer Opinion, Nonstate Actor Inclusion, and the Social Legitimacy
+          of Global Governance Institutions</em> from 2021 to 2024.
+        </p>
+
+        <p>
+          I have held temporary professorships in international relations at Freie Universität Berlin, the University of Leipzig,
+          the University of Bamberg, and most recently at Goethe University Frankfurt.
+        </p>
+      </article>
+
+      <!-- Right column: optional compact info card (matches your grid layout) -->
+      <aside class="card contact">
+        <h2>Links</h2>
+        <p class="muted">Selected external links and project pages.</p>
+
+        <p>
+          <a href="https://farrio.eu/" target="_blank" rel="noopener noreferrer">FARRIO project</a><br>
+          <a href="index.html">Home</a><br>
+          <a href="publications.html">Publications</a><br>
+          <a href="projects.html">Current projects</a>
+        </p>
+
+        <p class="fineprint">
+          Tip: Replace <span class="muted">Portrait.jpg</span> with your actual photo filename (same folder as this page).
+        </p>
+      </aside>
+    </section>
+
+    <footer class="footer">
+      <div>© <span id="y"></span> Matthias Ecker-Ehrhardt</div>
+    </footer>
+
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
