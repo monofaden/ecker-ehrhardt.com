@@ -62,7 +62,7 @@ h1{
 }
 
 .badge{
-  max-width: 320px;
+  max-width: 380px;
   padding:16px 16px;
   border: 1px solid var(--line);
   border-radius: 16px;
